@@ -1,0 +1,38 @@
+body {
+    background-image: url(picture.jpg);
+}
+
+form {
+    background-color: #838383;
+    padding: 10px;
+}
+
+input[type="text"] {
+    display: block;
+    margin-bottom: 10px;
+    width: 50%;
+    background-color: #bbbbbb;
+    border: none;
+}
+
+input[type="email"] {
+    display: block;
+    margin-bottom: 10px;
+    width: 50%;
+    background-color: #bbbbbb;
+    border: none;
+}
+
+button[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    width: auto;
+    height: 32px;
+    background-color: #bbbbbb;
+    border: none;
+}
+
+button[type="submit"]:hover {
+    background-color: #e4e4e4;
+    cursor: pointer;
+}
